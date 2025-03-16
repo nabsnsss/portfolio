@@ -59,7 +59,7 @@ export function Header() {
                 <ShieldAlert className="h-5 w-5 text-white" />
               </div>
               <span className="font-mono font-bold text-lg tracking-tight text-white">
-                NABILA.SECURE
+                NABILA BENAYADA
               </span>
             </div>
           </div>

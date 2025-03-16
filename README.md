@@ -1,3 +1,5 @@
+## Getting Started
+=======
 # Portfolio de Nabila Benayada
 
 Bienvenue sur le repository de mon portfolio personnel. Ce site a été développé en utilisant des fichiers .tsx (TypeScript React) et .js (JavaScript).
