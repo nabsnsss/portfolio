@@ -15,22 +15,38 @@ Bienvenue sur le repository de mon portfolio personnel. Ce site a été dévelop
 
 ## Structure du projet
 
-- **/src** : Code source React/TypeScript (.tsx et .js)
-- **/public** : Fichiers statiques
-- **/dist** : Fichiers générés après `npm run build`
+- /src : Code source React/TypeScript
+- /components : Composants réutilisables
+- /sections : Sections principales du site (Header, Layout)
+- Fichiers principaux : App.tsx, index.tsx, index.css
+- /public : Fichiers statiques
+- /dist : Fichiers générés après npm run build
+
+Le projet contient plusieurs composants spécifiques pour chaque section du portfolio :
+
+- Hero.tsx : Section d'accueil
+- Career.tsx : Parcours professionnel
+- Projects.tsx : Projets réalisés
+- TechnicalArsenal.tsx : Compétences techniques
+- Contact.tsx : Formulaire et informations de contact
+
+Des fichiers de configuration sont également présents à la racine pour :
+
+- TailwindCSS (tailwind.config.js)
+- TypeScript (tsconfig.json, tsconfig.node.json)
+- Vite (vite.config.ts)
+- Linting (eslintrc.js)
+- PostCSS (postcss.config.js)
 
 ## Installation et lancement
-
 ### Cloner le repo
 
 git clone https://github.com/nabsnsss/portfolio.git
 cd portfolio
-```
 
 ### Installer les dépendances
 
 npm install
-```
 
 ### Lancer le projet en local
 
