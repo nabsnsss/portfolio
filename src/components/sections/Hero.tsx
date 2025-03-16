@@ -8,19 +8,28 @@ export function Hero() {
       text: '> Initializing security profile...',
       delay: 300
     }, {
-      text: '> Running system diagnostics...',
+      text: '> Deploying Digital Forensics & Data Integrity Verification...',
       delay: 1000
     }, {
-      text: '> Analyzing threat landscape...',
+      text: '> Scanning for Privacy Breaches & Regulatory Violations...',
       delay: 1000
     }, {
+      text: '> Running Threat Hunting & Anomaly Detection Protocols...',
+      delay: 300
+    }, {
+      text: '> Corporate Compliance Assessment: In Progress...',
+      delay: 300
+    }, {
+      text: '> PII Protection Systems: Active',
+      delay: 300
+    },{
       text: '> Profile authenticated: Nabila',
       delay: 1000
     }, {
-      text: '> Security status: Active',
+      text: '> Security status: Active | Monitoring: Ongoing',
       delay: 800
     }, {
-      text: '> Welcome to the secure perimeter.',
+      text: '> Welcome to the Secure Data & Threat Defense Perimeter.',
       delay: 800
     }];
     let totalDelay = 0;
@@ -42,18 +51,18 @@ export function Hero() {
           <div className="order-2 lg:order-1">
             <div className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-purple-900/30 text-purple-400 mb-6">
               <ShieldCheck className="mr-2 h-4 w-4" />
-              <span>Cybersecurity & Strategic Analyst</span>
+              <span>Cybersecurity & Risk Analyst</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4">
-              Securing Digital <br />
+            Cybersecurity Analysis <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-400">
-                Infrastructure & Strategy
+              Risk Management & Compliance
               </span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-lg">
-              Specializing in threat intelligence, risk management, and
-              strategic security architecture to protect critical systems
-              against evolving threats.
+              Specializing in digital forensics, security incidents and
+              data privacy protection to ensure compliance, integrity
+              and security of critical assets.
             </p>
             <div className="bg-[#0c1a2b] border border-gray-800 rounded-lg p-4 mb-8 max-w-lg">
               <div className="flex items-center mb-3">
