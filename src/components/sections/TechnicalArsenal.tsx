@@ -8,19 +8,19 @@ export function TechnicalArsenal() {
     description: 'Hardening systems against threats through proactive security measures',
     skills: [{
       name: 'Network Security',
-      level: 90
+      level: 60
     }, {
       name: 'Firewall Configuration',
-      level: 85
+      level: 35
     }, {
       name: 'System Hardening',
-      level: 95
+      level: 50
     }, {
       name: 'Endpoint Protection',
-      level: 80
+      level: 20
     }, {
       name: 'Security Architecture',
-      level: 85
+      level: 10
     }]
   }, {
     id: 'analysis',
@@ -29,19 +29,19 @@ export function TechnicalArsenal() {
     description: 'Identifying threats and vulnerabilities through meticulous investigation',
     skills: [{
       name: 'Threat Intelligence',
-      level: 90
+      level: 60
     }, {
       name: 'Digital Forensics',
-      level: 85
-    }, {
-      name: 'Malware Analysis',
       level: 80
     }, {
+      name: 'Malware Analysis',
+      level: 40
+    }, {
       name: 'Log Analysis',
-      level: 95
+      level: 20
     }, {
       name: 'Penetration Testing',
-      level: 85
+      level: 45
     }]
   }, {
     id: 'strategy',
@@ -50,43 +50,71 @@ export function TechnicalArsenal() {
     description: 'Developing comprehensive security frameworks and policies',
     skills: [{
       name: 'Risk Management',
-      level: 95
+      level: 30
     }, {
       name: 'Security Compliance',
-      level: 90
+      level: 50
     }, {
       name: 'Incident Response',
-      level: 85
+      level: 45
     }, {
       name: 'Security Awareness',
-      level: 80
+      level: 70
     }, {
       name: 'Disaster Recovery',
-      level: 85
+      level: 10
     }]
   }];
   const certifications = [{
-    name: 'CISSP',
+    name: 'TCSE 1 - SecureTrack+',
     status: 'Certified',
-    year: '2022'
+    year: '2024'
   }, {
-    name: 'OSCP',
+    name: 'TCSE 2 - SecureChange+',
     status: 'Certified',
-    year: '2021'
+    year: '2025'
   }, {
-    name: 'CEH',
+    name: 'TCSE 3 - Administration',
     status: 'Certified',
-    year: '2020'
+    year: '2025'
   }, {
-    name: 'SANS GIAC',
+    name: 'TCSE 4 - Troubleshooting',
+    status: 'Certified',
+    year: '2025'
+  }, {
+    name: 'MOOC GDPR',
+    status: 'Certified',
+    year: '2025'
+  }, {
+    name: 'BTL1',
     status: 'In Progress',
-    year: '2023'
+    year: '2025'
   }, {
-    name: 'AWS Security',
+    name: 'CompTIA Security+',
+    status: 'In Progress',
+    year: '2025'
+  }, {
+    name: 'MOOC GDPR',
     status: 'Certified',
-    year: '2022'
+    year: '2025'
+  }, {
+    name: 'CySA+',
+    status: 'In Progress',
+    year: '2025'
+  }, {
+    name: 'CC',
+    status: 'In Progress',
+    year: '2025'
+  }, {
+    name: 'CISM',
+    status: 'In Progress',
+    year: '2025'
+  }, {
+    name: 'CISA',
+    status: 'In Progress',
+    year: '2025'
   }];
-  const tools = ['Wireshark', 'Metasploit', 'Burp Suite', 'Nessus', 'Splunk', 'OSSEC', 'Snort', 'Kali Linux', 'MISP', 'ELK Stack', 'Ghidra', 'YARA'];
+  const tools = ['BTLO', 'THM', 'Wireshark', 'Metasploit', 'Burp Suite', 'Splunk', 'Kali Linux'];
   return <section id="arsenal" className="py-20 bg-[#071525]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -188,24 +216,16 @@ export function TechnicalArsenal() {
                 <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gray-700 transform -translate-x-1/2"></div>
                 {/* Methodology steps */}
                 {[{
-                title: 'Threat Identification',
-                description: 'Analyzing potential attack vectors and security vulnerabilities',
-                color: 'border-cyan-500'
-              }, {
                 title: 'Risk Assessment',
                 description: 'Evaluating potential impact and likelihood of security threats',
                 color: 'border-purple-500'
-              }, {
-                title: 'Security Architecture Design',
-                description: 'Creating robust defensive systems based on security requirements',
-                color: 'border-green-500'
               }, {
                 title: 'Implementation & Hardening',
                 description: 'Deploying security measures with continuous improvement',
                 color: 'border-yellow-500'
               }, {
-                title: 'Monitoring & Response',
-                description: 'Continuous surveillance and incident response protocols',
+                title: 'Monitoring',
+                description: 'Continuous surveillance',
                 color: 'border-red-500'
               }].map((step, index) => <div key={index} className={`relative mb-12 ${index % 2 === 0 ? 'pr-8 md:pr-0 md:text-right md:mr-1/2 md:pr-12' : 'pl-8 md:pl-0 md:text-left md:ml-1/2 md:pl-12'}`}>
                     <div className={`absolute top-0 ${index % 2 === 0 ? 'right-0 md:left-full' : 'left-0 md:left-0'} mt-1.5 md:mt-2.5 w-6 h-6 rounded-full border-4 ${step.color} bg-[#0c1a2b] transform md:translate-x-[-50%]`}></div>
