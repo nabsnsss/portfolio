@@ -112,7 +112,7 @@ export function Hero() {
                         Nabila
                       </h2>
                       <p className="text-purple-400 font-mono text-sm">
-                        Security Operations Specialist
+                        Digital Forensics & Data Protection Analyst
                       </p>
                       <div className="mt-6 space-y-2 font-mono text-sm">
                         <div className="flex items-center justify-center">
@@ -121,13 +121,13 @@ export function Hero() {
                         </div>
                         <div className="flex items-center justify-center">
                           <span className="text-gray-400">Clearance:</span>
-                          <span className="ml-2 text-purple-400">Level 5</span>
+                          <span className="ml-2 text-purple-400">Level 1</span>
                         </div>
                         <div className="flex items-center justify-center">
                           <span className="text-gray-400">
-                            Threat Detection:
+                            Forensic Analysis & Data Privacy:
                           </span>
-                          <span className="ml-2 text-cyan-400">Enhanced</span>
+                          <span className="ml-2 text-cyan-400">Building Skills</span>
                         </div>
                       </div>
                     </div>
@@ -139,9 +139,7 @@ export function Hero() {
         </div>
         <div className="mt-16 pt-8 border-t border-gray-800">
           <blockquote className="text-xl md:text-2xl text-center font-light italic text-gray-300 max-w-3xl mx-auto">
-            "Security is not just a technical challenge, but a strategic
-            imperative. The strongest defense combines deep technical knowledge
-            with forward-thinking strategy."
+            "In a world where data is the new oil, what we freely share today will determine our freedom tomorrow."
           </blockquote>
         </div>
       </div>
